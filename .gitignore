@@ -24,6 +24,7 @@ assets/final/.tmp/
 
 # Generated media (large, not source)
 assets/stock/
+assets/stock_norm/
 assets/final/
 assets/thumbnails/
 voiceovers/full/

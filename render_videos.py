@@ -16,10 +16,12 @@ from pathlib import Path
 
 BASE = Path(__file__).parent.resolve()
 STOCK_DIR = BASE / "assets" / "stock"
+NORM_DIR = BASE / "assets" / "stock_norm"
 FULL_DIR = BASE / "voiceovers" / "full"
 META_DIR = BASE / "scripts"
 OUT_DIR = BASE / "assets" / "final"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
+NORM_DIR.mkdir(parents=True, exist_ok=True)
 
 FFMPEG = "/usr/local/bin/ffmpeg"
 FFPROBE = "/usr/local/bin/ffprobe"
@@ -35,6 +37,32 @@ def probe_duration(path: Path) -> float:
         return float(result.stdout.strip())
     except Exception:
         return 0.0
+
+
+def normalized_path(raw: Path, slug: str) -> Path:
+    return NORM_DIR / slug / raw.name
+
+
+def normalize_clip(raw: Path, slug: str) -> Path:
+    out = normalized_path(raw, slug)
+    if out.exists():
+        return out
+    out.parent.mkdir(parents=True, exist_ok=True)
+    cmd = [
+        FFMPEG, "-y",
+        "-threads", "2",
+        "-i", str(raw),
+        "-vf", "scale=1920:1080:force_original_aspect_ratio=decrease,pad=1920:1080:(ow-iw)/2:(oh-ih)/2,setsar=1,format=yuv420p",
+        "-c:v", "h264_videotoolbox", "-allow_sw", "0",
+        "-b:v", "10000k", "-maxrate", "12000k", "-bufsize", "24000k",
+        "-c:a", "aac", "-b:a", "192k",
+        "-r", "30", "-movflags", "+faststart",
+        "-pix_fmt", "yuv420p",
+        "-an",  # strip audio, we'll use narration
+        str(out)
+    ]
+    subprocess.run(cmd, capture_output=True, text=True, timeout=300)
+    return out if out.exists() else raw
 
 
 def build_concat_list(stock_clips: list[Path], target_dur: float, list_path: Path) -> None:
@@ -71,36 +99,31 @@ def render_video(slug: str, stock_clips: list[Path], full_audio: Path) -> Path:
         print(f"  ! Cannot probe duration for {full_audio}")
         return None
 
+    # normalize each stock clip to 1080p 30fps yuv420p once (cached)
+    norm_clips = [normalize_clip(c, slug) for c in stock_clips]
+    norm_clips = [c for c in norm_clips if c.exists()]
+    if not norm_clips:
+        print(f"  ! No valid stock clips for {slug}")
+        return None
+
     temp_dir = OUT_DIR / ".tmp" / slug
     temp_dir.mkdir(parents=True, exist_ok=True)
     concat_file = temp_dir / "concat.txt"
 
-    build_concat_list(stock_clips, target_dur, concat_file)
+    build_concat_list(norm_clips, target_dur, concat_file)
     if not concat_file.exists() or concat_file.stat().st_size == 0:
         print(f"  ! No valid stock clips for {slug}")
         return None
 
-    # detect hardware encoder availability
-    have_vtb = subprocess.run([FFMPEG, "-encoders"], capture_output=True, text=True).stdout.find("h264_videotoolbox") != -1
-
-    if have_vtb:
-        vcodec = ["-c:v", "h264_videotoolbox", "-allow_sw", "0", "-b:v", "10000k", "-maxrate", "12000k", "-bufsize", "24000k"]
-    else:
-        vcodec = ["-c:v", "libx264", "-preset", "fast", "-crf", "23"]
-
     cmd = [
         FFMPEG, "-y",
-        "-threads", "2",  # cap ffmpeg worker threads to spare your CPU
+        "-threads", "2",
         "-f", "concat", "-safe", "0", "-i", str(concat_file),
         "-i", str(full_audio),
-        "-vf", "scale=1920:1080:force_original_aspect_ratio=decrease,pad=1920:1080:(ow-iw)/2:(oh-ih)/2,setsar=1,format=yuv420p",
-        "-map", "0:v:0",
-        "-map", "1:a:0",
-        *vcodec,
+        "-c:v", "copy",                 # zero re-encode: clips already uniform
         "-c:a", "aac", "-b:a", "192k",
         "-movflags", "+faststart",
         "-shortest",
-        "-r", "30",
         str(out_path)
     ]
 
