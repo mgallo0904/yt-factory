@@ -59,10 +59,16 @@ def extract_scene_keywords(script_text: str) -> list[str]:
 
 
 def build_queries_for_script(meta_path: Path) -> list[str]:
-    """Given a script meta file, return targeted search queries."""
-    md_path = meta_path.with_suffix('.md')
-    if not md_path.exists():
+    """Given a script meta file, find the matching .md and return search queries."""
+    # meta file is like 01_meta.json, find 01_*.md
+    idx_match = re.match(r'^(\d+)_', meta_path.name)
+    if not idx_match:
         return []
+    prefix = idx_match.group(1)
+    md_files = list(META_DIR.glob(f"{prefix}_*.md"))
+    if not md_files:
+        return []
+    md_path = md_files[0]
 
     text = md_path.read_text(encoding='utf-8', errors='ignore')
 

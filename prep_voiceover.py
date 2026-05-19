@@ -33,15 +33,23 @@ def strip_markdown(text: str) -> str:
     text = re.sub(r'\n{3,}', '\n\n', text)
     return text.strip()
 
-SECTION_RE = re.compile(
-    r'^(hook|content|call\s+to\s+action|metadata|timestamps|tags|description|'
-    r'pinned\s+comment|links|related)(\s*\(|\s*[:]|\s*$)',
+# Lines that START a skip section — everything after is metadata/trash
+SKIP_START_RE = re.compile(
+    r'^(metadata|timestamps|tags|description|pinned\s+comment|links|related)'
+    r'(\s*\(|\s*[:]|\s*$)',
     re.I
 )
-HEADING_RE = re.compile(r'^section\s+\d+\s*[:，,.]\s*', re.I)
+
+# Section headers to strip individually (line only, don't skip what follows)
+SECTION_HEADER_RE = re.compile(
+    r'^(hook|call\s+to\s+action|content)(\s*\(|\s*[:]|\s*$)',
+    re.I
+)
+
+HEADING_RE = re.compile(r'^section\s+\d+\s*[:，,.]?\s*', re.I)
 
 def extract_speaking_parts(text: str) -> str:
-    """Only keep narration, strip all headers, labels, and metadata sections."""
+    """Only keep narration, strip headers and metadata."""
     lines = text.split('\n')
     output_lines = []
     skip_section = False
@@ -52,14 +60,18 @@ def extract_speaking_parts(text: str) -> str:
             output_lines.append('')
             continue
 
-        # Once we hit metadata, timestamps, links, etc. skip everything else
-        if SECTION_RE.match(stripped):
+        # Once we hit metadata/timestamps/links, skip to end of file
+        if SKIP_START_RE.match(stripped):
             skip_section = True
             continue
         if skip_section:
             continue
 
-        # Strip standalone "Section N:" headers
+        # Strip section heading lines (Hook, Call to Action, Content)
+        if SECTION_HEADER_RE.match(stripped):
+            continue
+
+        # Strip sub-heading lines like "Section 1: The Title"
         if HEADING_RE.match(stripped):
             continue
 

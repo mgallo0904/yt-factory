@@ -123,8 +123,8 @@ def slug_from_filename(name: str) -> str:
     m = re.match(r"^(\d+)_", name)
     if m:
         return f"video_{m.group(1).zfill(2)}"
-    m = re.match(r"^(video_\d+)", name)
-    return m.group(1) if m else name.replace("_meta.json", "")
+    m = re.match(r"^(\d+)", name)
+    return f"video_{m.group(1).zfill(2)}" if m else name.replace("_meta.json", "")
 
 
 def main():
