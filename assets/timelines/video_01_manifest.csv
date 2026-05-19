@@ -1,0 +1,8 @@
+type,filename,duration_seconds,notes
+thumbnail,video_01.png,-,YouTube thumbnail
+hook_audio,hook_01.mp3,49.20,First 5s hook
+full_audio,full_01.mp3,601.08,Main narration
+broll,clip_01_4OY07Bo5PnY.mp4,10.50,Loop/cut to fit narration
+broll,clip_02_9oyFU2IQHIc.mp4,6.39,Loop/cut to fit narration
+script,video_01_script.md,-,Voiceover source text
+meta,video_01_meta.json,-,Title/tags/description

@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<fcpxml version="1.9">
+  <resources>
+    <format id="r1" name="FFVideoFormat1080p24" frameDuration="1/24s" width="1920" height="1080"/>
+    <asset id="rv1" name="clip_01_A1Xa_FCsDNk.mp4" uid="uid_clip_01_A1Xa_FCsDNk" src="/Users/markgallo/Documents/Hermes/yt_factory/assets/stock/video_06/clip_01_A1Xa_FCsDNk.mp4" start="0s" duration="480/24s" hasVideo="1" hasAudio="0" format="r1"/>
+    <asset id="rv2" name="clip_02_hGDvvUNU-cw.mp4" uid="uid_clip_02_hGDvvUNU-cw" src="/Users/markgallo/Documents/Hermes/yt_factory/assets/stock/video_06/clip_02_hGDvvUNU-cw.mp4" start="0s" duration="1874/24s" hasVideo="1" hasAudio="0" format="r1"/>
+    <asset id="ra_hook" name="hook_06.mp3" uid="uid_hook_06" src="/Users/markgallo/Documents/Hermes/yt_factory/voiceovers/hooks/hook_06.mp3" start="0s" duration="759/24s" hasVideo="0" hasAudio="1"/>
+    <asset id="ra_full" name="full_06.mp3" uid="uid_full_06" src="/Users/markgallo/Documents/Hermes/yt_factory/voiceovers/full/full_06.mp3" start="0s" duration="6493/24s" hasVideo="0" hasAudio="1"/>
+  </resources>
+  <library>
+    <event name="video_06">
+      <project name="video_06">
+        <sequence duration="6541/24s" format="r1" tcStart="0s" tcFormat="NDF" audioLayout="stereo" audioRate="48k">
+          <spine>
+            <video name="clip_01_A1Xa_FCsDNk.mp4" ref="rv1" offset="0/24s" duration="480/24s" start="0s"/>
+            <video name="clip_02_hGDvvUNU-cw.mp4" ref="rv2" offset="480/24s" duration="1874/24s" start="0s"/>
+            <video name="clip_01_A1Xa_FCsDNk.mp4" ref="rv1" offset="2354/24s" duration="480/24s" start="0s"/>
+            <video name="clip_02_hGDvvUNU-cw.mp4" ref="rv2" offset="2834/24s" duration="1874/24s" start="0s"/>
+            <video name="clip_01_A1Xa_FCsDNk.mp4" ref="rv1" offset="4708/24s" duration="480/24s" start="0s"/>
+            <video name="clip_02_hGDvvUNU-cw.mp4" ref="rv2" offset="5188/24s" duration="1353/24s" start="0s"/>
+            <audio name="full_06.mp3" ref="ra_full" offset="0s" duration="6493/24s" start="0s" srcCh="1,2"/>
+            <audio name="hook_06.mp3" ref="ra_hook" offset="0s" duration="120/24s" start="0s" srcCh="1,2" role="dialogue"/>
+          </spine>
+        </sequence>
+      </project>
+    </event>
+  </library>
+</fcpxml>

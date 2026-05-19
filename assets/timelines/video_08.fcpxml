@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<fcpxml version="1.9">
+  <resources>
+    <format id="r1" name="FFVideoFormat1080p24" frameDuration="1/24s" width="1920" height="1080"/>
+    <asset id="rv1" name="clip_01_4i-lIMAx-aw.mp4" uid="uid_clip_01_4i-lIMAx-aw" src="/Users/markgallo/Documents/Hermes/yt_factory/assets/stock/video_08/clip_01_4i-lIMAx-aw.mp4" start="0s" duration="6653/24s" hasVideo="1" hasAudio="0" format="r1"/>
+    <asset id="rv2" name="clip_02_vtEXmm2ugzY.mp4" uid="uid_clip_02_vtEXmm2ugzY" src="/Users/markgallo/Documents/Hermes/yt_factory/assets/stock/video_08/clip_02_vtEXmm2ugzY.mp4" start="0s" duration="4381/24s" hasVideo="1" hasAudio="0" format="r1"/>
+    <asset id="rv3" name="clip_03_e4xwZuIAZJM.mp4" uid="uid_clip_03_e4xwZuIAZJM" src="/Users/markgallo/Documents/Hermes/yt_factory/assets/stock/video_08/clip_03_e4xwZuIAZJM.mp4" start="0s" duration="8006/24s" hasVideo="1" hasAudio="0" format="r1"/>
+    <asset id="ra_hook" name="hook_08.mp3" uid="uid_hook_08" src="/Users/markgallo/Documents/Hermes/yt_factory/voiceovers/hooks/hook_08.mp3" start="0s" duration="780/24s" hasVideo="0" hasAudio="1"/>
+    <asset id="ra_full" name="full_08.mp3" uid="uid_full_08" src="/Users/markgallo/Documents/Hermes/yt_factory/voiceovers/full/full_08.mp3" start="0s" duration="6819/24s" hasVideo="0" hasAudio="1"/>
+  </resources>
+  <library>
+    <event name="video_08">
+      <project name="video_08">
+        <sequence duration="6867/24s" format="r1" tcStart="0s" tcFormat="NDF" audioLayout="stereo" audioRate="48k">
+          <spine>
+            <video name="clip_01_4i-lIMAx-aw.mp4" ref="rv1" offset="0/24s" duration="6653/24s" start="0s"/>
+            <video name="clip_02_vtEXmm2ugzY.mp4" ref="rv2" offset="6653/24s" duration="214/24s" start="0s"/>
+            <audio name="full_08.mp3" ref="ra_full" offset="0s" duration="6819/24s" start="0s" srcCh="1,2"/>
+            <audio name="hook_08.mp3" ref="ra_hook" offset="0s" duration="120/24s" start="0s" srcCh="1,2" role="dialogue"/>
+          </spine>
+        </sequence>
+      </project>
+    </event>
+  </library>
+</fcpxml>

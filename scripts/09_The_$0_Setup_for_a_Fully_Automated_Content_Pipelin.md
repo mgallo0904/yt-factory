@@ -1,0 +1,62 @@
+---
+title: "I Built a $0 AI Content Machine That Runs 24/7 (Full Blueprint)"
+topic: "The $0 Setup for a Fully Automated Content Pipeline"
+generated_at: "2026-05-19T12:44:05.223530"
+model: "kimi-k2.6:cloud"
+niche: "AI Tools and Productivity"
+status: draft
+---
+
+# I Built a $0 AI Content Machine That Runs 24/7 (Full Blueprint)
+
+## Hook (0:00–0:30)
+There is a creator in my niche who publishes three times a day, never misses a trending topic, and has not touched a keyboard in six weeks. I assumed they hired a team of writers. Turns out, they wired together a fully automated content pipeline using nothing but free tools. No subscriptions. No coding. And today, I am handing you the exact zero-dollar blueprint so you can flip the switch on your own machine before you go to bed tonight.
+
+## Content
+
+### Section 1: The Brain: Automated Idea Capture
+Most creators wake up and ask, 'What should I make today?' That is like a gold prospector panning by hand while staring at an empty riverbed. The smarter move is to divert the entire stream toward your sluice box and let the current do the sifting. Here is the free setup. Open Google Alerts and create five alerts using your core keywords plus the word 'breakthrough' or 'controversy.' Then head to Reddit and use the search operators to surface threads with at least fifty comments from the last week. Pipe all of that into a free Airtable base or a Notion database. I have a base called 'Idea Reservoir' with three views: Hot Leads, Validation Needed, and Ready to Draft. Every morning, there are twenty fresh angles sitting there that I did not have to hunt for. The river keeps flowing whether I am awake or not. You can also layer in a free Feedly account tracking ten industry blogs. The trick is to set up a single 'Inbox Zero' rule: if an idea does not fit your content pillars, delete it immediately. Otherwise, it clogs the pipeline. Think of it as a spam filter for your creativity. Within three days, you will have a thirty-day content calendar without ever staring at a blank page.
+
+### Section 2: The Assembly Line: Writing & Designing at Zero Cost
+Henry Ford did not build cars faster by working harder; he built a line where each station had one job. Your content pipeline needs the same logic. Station one is the rough draft. I take the winning idea from the Airtable base and drop it into a custom prompt inside ChatGPT or Claude--both still offer robust free tiers. The prompt is structured like a mad-libs script: hook using the PAS framework, three teaching points, and a curiosity gap at the sixty-percent mark to retain watch time. In ninety seconds, I have a script that sounds like me because I trained the style by feeding it three of my previous posts. Station two is visual assets. For thumbnails and quote cards, I use Canva's free tier with a brand kit workaround--save your hex codes in the file name so you never break consistency. For AI-generated images, Bing Image Creator still runs on free DALL-E 3 credits. I batch ten visuals in one sitting while my coffee brews. The assembly line does not get tired, does not ask for a raise, and never has writer's block. It simply waits for the next idea to arrive, then builds it exactly to specification.
+
+### Section 3: The Conveyor Belt: Hands-Free Publishing
+Imagine an airport baggage system. You drop your bag at check-in, and it magically appears at the correct carousel three time zones away. Your content should move the same way. Once the draft and visuals are ready, I paste them into a free scheduling layer. For social posts, Buffer's free plan handles three channels and ten scheduled posts per channel. For long-form video, YouTube Studio's native scheduler is already free. For blogs, you can connect Notion to a free WordPress.com site using Zapier's free tier--one hundred tasks per month is plenty if you batch weekly. I write every Sunday, load the queue by Monday morning, and the conveyor belt drops posts on Tuesday, Thursday, and Saturday at the exact times my audience is online. I am not even in the building when the content goes live. The only manual step left is approving the final carousel in Canva, which takes thirty seconds because the template is already locked. If you want to get fancy, you can use IFTTT to cross-post Instagram photos to Twitter as native images, or auto-share new YouTube uploads to a LinkedIn article draft. It is like adding extra lanes to your highway without buying more cars. The goal is to touch the content once, then let the system carry it to every platform while you sleep.
+
+### Section 4: The Recycling Plant: One Asset, Five Formats
+There is an old Japanese concept called mottainai--it means wasting nothing. Most creators write one thread, post it, and let it vanish. That is like a butcher throwing away every cut except the filet. The automated pipeline treats one long-form script as raw material to be butchered into smaller cuts. Here is the free workflow. I take a completed YouTube script and feed it back to Claude with a simple instruction: 'Extract five standalone hooks, two listicle carousels for LinkedIn, and three punchy paragraphs suitable for Twitter.' It takes forty-five seconds. I paste the carousels into a free Canva template sized for LinkedIn, and the hooks become a thread scheduled in Typefully's free tier. The three punchy paragraphs? They become quote cards for Instagram, overlaid on those Bing-generated images from earlier. One piece of intellectual property now feeds the algorithm on four different platforms. The machine is not creating more work; it is squeezing every drop of juice from the orange you already peeled. I even save the discarded scraps--cutting-room-floor sentences go into a 'Swipe File' database. Six months later, three of those scraps combined into my highest-performing thread. Waste nothing. The pipeline remembers so you do not have to.
+
+### Section 5: Quality Control: The Human Fuse
+A fully automated factory sounds perfect until the robots start welding the wrong car doors. Content without guardrails produces generic AI sludge that smells like a press release written by a toaster. You need a human fuse in the circuit--someone who says yes or no before the electricity reaches the audience. My free quality control station takes fifteen minutes every evening. I open the scheduled queue in Buffer and the drafts in Notion. First, I run the text through the free Hemingway Editor to catch robotic phrasing. If the grade level is above eight, I simplify it. Second, I fact-check any statistics using a quick Perplexity search--still free and faster than Google. Third, I compare the thumbnail text against my 'Scroll-Stopping Headlines' swipe file in Airtable. If it does not earn a click in my imagination, it does not earn a slot in the queue. Think of yourself as an air traffic controller. The planes take off automatically, but you clear the runway. Without you, they crash into each other. That fifteen-minute review is the difference between a channel that scales and a channel that fills the internet with digital spam. Respect the fuse, or the entire grid goes dark.
+
+### Section 6: The Flywheel: Closing the Loop
+Compound interest is the eighth wonder of the world, and it applies to content too. Every post teaches you something about your audience, but most creators ignore the lesson and chase the next viral hit. The final free tool in this pipeline is a closed feedback loop that makes the machine smarter every week. Here is the ritual. Every Sunday, I open YouTube Studio, Twitter Analytics, and Google Analytics 4--all free. I look at one metric only: click-through rate or average view duration. I copy the winning topic into a special table inside my Airtable base called 'Compost Heap.' That is not a joke. Just like a gardener turns dead leaves into nutrient-rich soil, you turn proven angles into future content. The next time my idea river runs low, I do not brainstorm from scratch; I pull from the Compost Heap and ask ChatGPT to remix the winning angle with a new hook or recent news event. The pipeline begins to self-optimize. Week one, you saved five hours. Week twelve, you have a library of validated formats that practically write themselves. Eventually, the boundary between you and the machine blurs. You become the strategist; it becomes the labor. And the entire engine cost you zero dollars to assemble.
+
+## Call to Action (Final 30s)
+If you want the exact Airtable template and the prompt stack I feed into ChatGPT, drop the word 'pipeline' in the comments and I will send you the link. And if you want to see how I scaled this same system to run five faceless channels simultaneously, the next video is already on your screen. I will see you there.
+
+---
+
+## Metadata
+
+**Description:**
+Build a fully automated content pipeline using only free AI tools. This blueprint covers idea capture, AI writing, scheduling, repurposing, and analytics--with zero paid subscriptions.
+
+TIMESTAMPS:
+0:00 The Hook
+1:15 The Brain: Automated Idea Capture
+3:10 The Assembly Line: Writing & Design
+5:05 The Conveyor Belt: Publishing
+7:00 The Recycling Plant: Repurposing
+8:45 Quality Control: Human Guardrails
+10:30 The Flywheel: Analytics Loop
+
+FREE TOOLS MENTIONED:
+Google Alerts, Airtable, Notion, ChatGPT, Claude, Canva, Bing Image Creator, Buffer, Zapier, IFTTT, Hemingway Editor, Perplexity, YouTube Studio, Twitter Analytics, Google Analytics 4
+
+#ContentAutomation #FreeAITools #FacelessYouTube #Productivity #NoCode
+
+**Tags:** content automation, free AI tools, faceless YouTube, AI content pipeline, no code automation, productivity, content repurposing, ChatGPT free, zero dollar setup, YouTube automation
+
+**Pinned Comment:**
+Which part of this pipeline would save you the most time right now--the ideas, the writing, or the distribution? Let me know below 👇 I also dropped the exact free tool stack and prompt templates I use in the first reply. Grab them before I move them behind a paywall next week.

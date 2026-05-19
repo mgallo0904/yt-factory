@@ -1,0 +1,431 @@
+1
+00:00:00,000 --> 00:00:04,799
+7 Productivity Tools The Guru's Hide Because They Worked To Well
+
+2
+00:00:04,799 --> 00:00:05,799
+Hook.
+
+3
+00:00:05,799 --> 00:00:07,960
+0100-030.
+
+4
+00:00:07,960 --> 00:00:13,439
+I spent $2,400 last year on Productivity courses.
+
+5
+00:00:13,439 --> 00:00:14,599
+Planners.
+
+6
+00:00:14,599 --> 00:00:17,559
+Enapse that promise to 10X My Output.
+
+7
+00:00:17,559 --> 00:00:20,320
+The Secret The Guru's Never Tell You?
+
+8
+00:00:20,320 --> 00:00:22,480
+The Best Tools Are Free.
+
+9
+00:00:22,480 --> 00:00:23,719
+Open Source.
+
+10
+00:00:23,719 --> 00:00:29,080
+And Intentionally Hard to Find Because Nobody Makes Affiliate Commissions From Them.
+
+11
+00:00:29,079 --> 00:00:31,359
+I am Exposing All 7.
+
+12
+00:00:31,359 --> 00:00:35,719
+Two of them are so effective I considered keeping them private.
+
+13
+00:00:35,719 --> 00:00:36,719
+Content.
+
+14
+00:00:36,719 --> 00:00:37,719
+Section 1.
+
+15
+00:00:37,719 --> 00:00:39,000
+Tool Number 1.
+
+16
+00:00:39,000 --> 00:00:42,359
+The Free Focus Timer That Beats Every Paid App.
+
+17
+00:00:42,359 --> 00:00:45,000
+The tool is called Engage Timer.
+
+18
+00:00:45,000 --> 00:00:48,439
+It is a browser extension with zero tracking.
+
+19
+00:00:48,439 --> 00:00:49,799
+Zero ads.
+
+20
+00:00:49,799 --> 00:00:52,480
+And a brutal accountability feature.
+
+21
+00:00:52,480 --> 00:00:57,640
+If you leave the tab, it automatically pauses and tweets your failure.
+
+22
+00:00:57,640 --> 00:01:01,280
+Optionally, To a Private Accountability Group.
+
+23
+00:01:01,280 --> 00:01:03,960
+Unlike Forrest or Focus At Will.
+
+24
+00:01:03,960 --> 00:01:06,840
+There is no gamified nonsense.
+
+25
+00:01:06,840 --> 00:01:07,840
+Just a timer.
+
+26
+00:01:07,840 --> 00:01:09,159
+A Commitment.
+
+27
+00:01:09,159 --> 00:01:10,719
+And Consequences.
+
+28
+00:01:10,719 --> 00:01:17,359
+I went from 47 minutes of average deep work to 2 hours and 12 minutes in the first week.
+
+29
+00:01:17,359 --> 00:01:19,560
+The Difference Was Not The Tool.
+
+30
+00:01:19,560 --> 00:01:23,240
+It Was The Loss A Version Build Into The Design.
+
+31
+00:01:23,240 --> 00:01:24,240
+Section 2.
+
+32
+00:01:24,240 --> 00:01:25,640
+Tool Number 2.
+
+33
+00:01:25,640 --> 00:01:29,439
+The Read Later App With Built-In AI Summarization.
+
+34
+00:01:29,439 --> 00:01:31,280
+Omnivore Is Free.
+
+35
+00:01:31,280 --> 00:01:32,519
+Open Source.
+
+36
+00:01:32,519 --> 00:01:34,640
+And Has a Killer Feature.
+
+37
+00:01:34,640 --> 00:01:40,000
+Every article you save gets automatically summarized by a local LLM.
+
+38
+00:01:40,000 --> 00:01:41,400
+You own your data.
+
+39
+00:01:41,400 --> 00:01:44,879
+Your highlights export to Obsidian in one click.
+
+40
+00:01:44,879 --> 00:01:48,040
+The Reading Experience Is Cleaner Than Pocket.
+
+41
+00:01:48,040 --> 00:01:53,040
+And the AI Summaries Are Accurate Enough That I Now Read 12 Articles per Day Instead of
+
+42
+00:01:53,040 --> 00:01:54,400
+Three.
+
+43
+00:01:54,400 --> 00:01:59,600
+The gurus Do Not Promote It Because There Is No Referral Program.
+
+44
+00:01:59,600 --> 00:02:00,600
+Section 3.
+
+45
+00:02:00,600 --> 00:02:02,080
+Tool Number 3.
+
+46
+00:02:02,080 --> 00:02:05,840
+The Email Client That Ends Inbox Zero Forever.
+
+47
+00:02:05,840 --> 00:02:08,680
+Nile Is Mail Is Not An Email Client.
+
+48
+00:02:08,680 --> 00:02:11,240
+It Is An Email Operating System.
+
+49
+00:02:11,240 --> 00:02:16,360
+It Auto-Sorts Emails By Sender Importance Using On Device AI.
+
+50
+00:02:16,360 --> 00:02:18,680
+Drafts Replies In Your Voice.
+
+51
+00:02:18,680 --> 00:02:23,520
+And Surfaces Only The Five Emails That Actually Need Your Human Brain.
+
+52
+00:02:23,520 --> 00:02:26,480
+I Check Email Once per Day Now.
+
+53
+00:02:26,480 --> 00:02:27,640
+Before Nile Is.
+
+54
+00:02:27,640 --> 00:02:30,120
+I Checked 47 Times.
+
+55
+00:02:30,120 --> 00:02:32,040
+The Math Is Embarrassing.
+
+56
+00:02:32,040 --> 00:02:35,600
+And It Is Completely Free For Personal Use.
+
+57
+00:02:35,600 --> 00:02:36,600
+Section 4.
+
+58
+00:02:36,600 --> 00:02:38,120
+Tool Number 4.
+
+59
+00:02:38,120 --> 00:02:40,719
+The Clipboard Manager With A Memory.
+
+60
+00:02:40,719 --> 00:02:45,160
+Ditto On Windows And McKee On Mac Remember Everything You Copy.
+
+61
+00:02:45,160 --> 00:02:46,160
+For Years.
+
+62
+00:02:46,160 --> 00:02:49,960
+I Have 34,000 Clipboard Entries Archived.
+
+63
+00:02:49,960 --> 00:02:55,080
+When a client asks for, that link I sent three months ago, I search three keywords and
+
+64
+00:02:55,080 --> 00:02:56,879
+find it in.
+
+65
+00:02:56,879 --> 00:02:58,200
+Four Seconds.
+
+66
+00:02:58,200 --> 00:03:02,920
+It Sounds Trivial Until You Realize How Much Time You Waste Refinding Things You Already
+
+67
+00:03:02,920 --> 00:03:04,800
+Found.
+
+68
+00:03:04,800 --> 00:03:05,800
+Section 5.
+
+69
+00:03:05,800 --> 00:03:07,319
+Tool Number 5.
+
+70
+00:03:07,319 --> 00:03:10,400
+The Free AI That Rites Your Meeting Notes.
+
+71
+00:03:10,400 --> 00:03:17,000
+Fireflies.AI has a free tier that transcribes and summarizes unlimited meetings.
+
+72
+00:03:17,000 --> 00:03:18,879
+But here is the secret.
+
+73
+00:03:18,879 --> 00:03:24,479
+Parit with a free local LLM via API and the summaries become action items with owners
+
+74
+00:03:24,479 --> 00:03:25,479
+and.
+
+75
+00:03:25,479 --> 00:03:28,240
+Deadlines Automatically Extracted.
+
+76
+00:03:28,240 --> 00:03:32,439
+The paid version charges $19 per month for this.
+
+77
+00:03:32,439 --> 00:03:37,439
+The free version does 90% of it with a 10 line script.
+
+78
+00:03:37,439 --> 00:03:38,439
+Section 6.
+
+79
+00:03:38,439 --> 00:03:40,080
+Tool Number 6.
+
+80
+00:03:40,080 --> 00:03:44,000
+The Browser That Block's Distractions At The DNS Level.
+
+81
+00:03:44,000 --> 00:03:48,319
+Brave Browser With Custom Filter Lists blocks not just ads.
+
+82
+00:03:48,319 --> 00:03:53,080
+But entire categories of distracting sites at the DNS level.
+
+83
+00:03:53,080 --> 00:03:56,240
+I have a Work Mode List That Makes Reddit.
+
+84
+00:03:56,240 --> 00:03:57,240
+X.
+
+85
+00:03:57,240 --> 00:04:01,240
+And YouTube Literally Unreachable During Focus Blocks.
+
+86
+00:04:01,240 --> 00:04:03,199
+No Willpower Required.
+
+87
+00:04:03,199 --> 00:04:05,080
+No Extension Juggling.
+
+88
+00:04:05,080 --> 00:04:07,080
+The Sites Do Not Resolve.
+
+89
+00:04:07,080 --> 00:04:08,080
+Period.
+
+90
+00:04:08,080 --> 00:04:09,479
+Section 7.
+
+91
+00:04:09,479 --> 00:04:11,080
+Tool Number 7.
+
+92
+00:04:11,080 --> 00:04:14,360
+The To-Do App That Tracks Your Real Capacity.
+
+93
+00:04:14,360 --> 00:04:19,560
+Sunsama has a free tier that forces you to estimate task duration.
+
+94
+00:04:19,560 --> 00:04:24,879
+Then Realistically Caps Your Daily Plan Based On Historical Completion Rates.
+
+95
+00:04:24,879 --> 00:04:29,080
+It Learned I Overestimate My Capacity By 40%.
+
+96
+00:04:29,080 --> 00:04:30,840
+Now at Auto Adjusts.
+
+97
+00:04:30,840 --> 00:04:36,720
+I Finish My List Every Day Instead Of Carrying 12 Undone Tasks Into Tomorrow.
+
+98
+00:04:36,720 --> 00:04:41,120
+The Psychological Relief Is Worth More Than The Productivity Gain.
+
+99
+00:04:41,120 --> 00:04:42,680
+Call to Action.
+
+100
+00:04:42,680 --> 00:04:44,080
+Final 30s.
+
+101
+00:04:44,080 --> 00:04:48,200
+All 7 Tools Are Linked In The Description With Setup Guides.
+
+102
+00:04:48,200 --> 00:04:54,760
+If this video saves you from buying another $297 Productivity Course.
+
+103
+00:04:54,760 --> 00:04:56,000
+Hit Subscribe.
+
+104
+00:04:56,000 --> 00:04:58,680
+I Only Share Tools That Are Free.
+
+105
+00:04:58,680 --> 00:04:59,920
+Field Tested.
+
+106
+00:04:59,920 --> 00:05:03,120
+And Actually Used In My Daily Workflow.
+
+107
+00:05:03,120 --> 00:05:06,040
+Comment Below With The Tool That Shocked You Most.
+
+108
+00:05:06,040 --> 00:05:09,200
+Or Tell Me The Paid App You Are Finally Ready To Cancel.

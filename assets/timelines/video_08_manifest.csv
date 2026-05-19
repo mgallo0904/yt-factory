@@ -1,0 +1,9 @@
+type,filename,duration_seconds,notes
+thumbnail,video_08.png,-,YouTube thumbnail
+hook_audio,hook_08.mp3,32.50,First 5s hook
+full_audio,full_08.mp3,284.14,Main narration
+broll,clip_01_4i-lIMAx-aw.mp4,277.20,Loop/cut to fit narration
+broll,clip_02_vtEXmm2ugzY.mp4,182.56,Loop/cut to fit narration
+broll,clip_03_e4xwZuIAZJM.mp4,333.60,Loop/cut to fit narration
+script,video_08_script.md,-,Voiceover source text
+meta,video_08_meta.json,-,Title/tags/description

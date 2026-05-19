@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<fcpxml version="1.9">
+  <resources>
+    <format id="r1" name="FFVideoFormat1080p24" frameDuration="1/24s" width="1920" height="1080"/>
+    <asset id="rv1" name="clip_01_4Z5VbcLnhBQ.mp4" uid="uid_clip_01_4Z5VbcLnhBQ" src="/Users/markgallo/Documents/Hermes/yt_factory/assets/stock/video_02/clip_01_4Z5VbcLnhBQ.mp4" start="0s" duration="1184/24s" hasVideo="1" hasAudio="0" format="r1"/>
+    <asset id="ra_hook" name="hook_02.mp3" uid="uid_hook_02" src="/Users/markgallo/Documents/Hermes/yt_factory/voiceovers/hooks/hook_02.mp3" start="0s" duration="948/24s" hasVideo="0" hasAudio="1"/>
+    <asset id="ra_full" name="full_02.mp3" uid="uid_full_02" src="/Users/markgallo/Documents/Hermes/yt_factory/voiceovers/full/full_02.mp3" start="0s" duration="13784/24s" hasVideo="0" hasAudio="1"/>
+  </resources>
+  <library>
+    <event name="video_02">
+      <project name="video_02">
+        <sequence duration="13832/24s" format="r1" tcStart="0s" tcFormat="NDF" audioLayout="stereo" audioRate="48k">
+          <spine>
+            <video name="clip_01_4Z5VbcLnhBQ.mp4" ref="rv1" offset="0/24s" duration="1184/24s" start="0s"/>
+            <video name="clip_01_4Z5VbcLnhBQ.mp4" ref="rv1" offset="1184/24s" duration="1184/24s" start="0s"/>
+            <video name="clip_01_4Z5VbcLnhBQ.mp4" ref="rv1" offset="2368/24s" duration="1184/24s" start="0s"/>
+            <video name="clip_01_4Z5VbcLnhBQ.mp4" ref="rv1" offset="3552/24s" duration="1184/24s" start="0s"/>
+            <video name="clip_01_4Z5VbcLnhBQ.mp4" ref="rv1" offset="4736/24s" duration="1184/24s" start="0s"/>
+            <video name="clip_01_4Z5VbcLnhBQ.mp4" ref="rv1" offset="5920/24s" duration="1184/24s" start="0s"/>
+            <video name="clip_01_4Z5VbcLnhBQ.mp4" ref="rv1" offset="7104/24s" duration="1184/24s" start="0s"/>
+            <video name="clip_01_4Z5VbcLnhBQ.mp4" ref="rv1" offset="8288/24s" duration="1184/24s" start="0s"/>
+            <video name="clip_01_4Z5VbcLnhBQ.mp4" ref="rv1" offset="9472/24s" duration="1184/24s" start="0s"/>
+            <video name="clip_01_4Z5VbcLnhBQ.mp4" ref="rv1" offset="10656/24s" duration="1184/24s" start="0s"/>
+            <video name="clip_01_4Z5VbcLnhBQ.mp4" ref="rv1" offset="11840/24s" duration="1184/24s" start="0s"/>
+            <video name="clip_01_4Z5VbcLnhBQ.mp4" ref="rv1" offset="13024/24s" duration="808/24s" start="0s"/>
+            <audio name="full_02.mp3" ref="ra_full" offset="0s" duration="13784/24s" start="0s" srcCh="1,2"/>
+            <audio name="hook_02.mp3" ref="ra_hook" offset="0s" duration="120/24s" start="0s" srcCh="1,2" role="dialogue"/>
+          </spine>
+        </sequence>
+      </project>
+    </event>
+  </library>
+</fcpxml>

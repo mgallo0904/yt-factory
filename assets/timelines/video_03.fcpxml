@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<fcpxml version="1.9">
+  <resources>
+    <format id="r1" name="FFVideoFormat1080p24" frameDuration="1/24s" width="1920" height="1080"/>
+    <asset id="rv1" name="clip_01_-yo0h1Yu7Yk.mp4" uid="uid_clip_01_-yo0h1Yu7Yk" src="/Users/markgallo/Documents/Hermes/yt_factory/assets/stock/video_03/clip_01_-yo0h1Yu7Yk.mp4" start="0s" duration="29681/24s" hasVideo="1" hasAudio="0" format="r1"/>
+    <asset id="rv2" name="clip_03_HjvQn8AgcCc.mp4" uid="uid_clip_03_HjvQn8AgcCc" src="/Users/markgallo/Documents/Hermes/yt_factory/assets/stock/video_03/clip_03_HjvQn8AgcCc.mp4" start="0s" duration="131/24s" hasVideo="1" hasAudio="0" format="r1"/>
+    <asset id="ra_hook" name="hook_03.mp3" uid="uid_hook_03" src="/Users/markgallo/Documents/Hermes/yt_factory/voiceovers/hooks/hook_03.mp3" start="0s" duration="933/24s" hasVideo="0" hasAudio="1"/>
+    <asset id="ra_full" name="full_03.mp3" uid="uid_full_03" src="/Users/markgallo/Documents/Hermes/yt_factory/voiceovers/full/full_03.mp3" start="0s" duration="13841/24s" hasVideo="0" hasAudio="1"/>
+  </resources>
+  <library>
+    <event name="video_03">
+      <project name="video_03">
+        <sequence duration="13889/24s" format="r1" tcStart="0s" tcFormat="NDF" audioLayout="stereo" audioRate="48k">
+          <spine>
+            <video name="clip_01_-yo0h1Yu7Yk.mp4" ref="rv1" offset="0/24s" duration="13889/24s" start="0s"/>
+            <audio name="full_03.mp3" ref="ra_full" offset="0s" duration="13841/24s" start="0s" srcCh="1,2"/>
+            <audio name="hook_03.mp3" ref="ra_hook" offset="0s" duration="120/24s" start="0s" srcCh="1,2" role="dialogue"/>
+          </spine>
+        </sequence>
+      </project>
+    </event>
+  </library>
+</fcpxml>

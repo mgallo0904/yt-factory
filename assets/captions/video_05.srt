@@ -1,0 +1,451 @@
+1
+00:00:00,000 --> 00:00:04,639
+chat gpt vs clawed vs deep seek vs kimi
+
+2
+00:00:04,639 --> 00:00:06,560
+the winner will shock you
+
+3
+00:00:06,560 --> 00:00:07,360
+hook
+
+4
+00:00:07,360 --> 00:00:09,679
+0-030
+
+5
+00:00:09,679 --> 00:00:13,439
+i ran the same 10 prompts through chat gpt
+
+6
+00:00:13,439 --> 00:00:14,240
+clawed
+
+7
+00:00:14,240 --> 00:00:15,359
+deep seek
+
+8
+00:00:15,359 --> 00:00:16,480
+and kimi
+
+9
+00:00:16,480 --> 00:00:19,280
+one model made me delete the other three
+
+10
+00:00:19,280 --> 00:00:21,839
+and the winner is not the one you think
+
+11
+00:00:21,839 --> 00:00:25,120
+if you are paying $200 a month for the wrong tool
+
+12
+00:00:25,920 --> 00:00:29,359
+this video will save you money and make you smarter
+
+13
+00:00:29,359 --> 00:00:30,320
+content
+
+14
+00:00:30,320 --> 00:00:33,519
+section one the test nobody does
+
+15
+00:00:33,519 --> 00:00:39,119
+every comparison video online uses cherry-picked examples from model press releases
+
+16
+00:00:40,000 --> 00:00:46,079
+i did something different i gave each model a $500 freelance coding task
+
+17
+00:00:46,079 --> 00:00:50,079
+a creative writing brief a math Olympiad problem
+
+18
+00:00:50,079 --> 00:00:52,560
+and a negotiation simulation
+
+19
+00:00:52,560 --> 00:00:56,480
+then i blind-ranked the outputs before checking which model wrote what
+
+20
+00:00:57,119 --> 00:00:59,039
+the results were humbling
+
+21
+00:00:59,039 --> 00:01:02,000
+section two chat gpt
+
+22
+00:01:02,000 --> 00:01:04,879
+the safe default that costs too much
+
+23
+00:01:04,879 --> 00:01:07,920
+chat gpt is the iPhone of AI
+
+24
+00:01:07,920 --> 00:01:09,039
+it works
+
+25
+00:01:09,039 --> 00:01:10,319
+it is polished
+
+26
+00:01:10,319 --> 00:01:12,560
+and it rarely surprises you
+
+27
+00:01:12,560 --> 00:01:14,719
+but that is also the problem
+
+28
+00:01:14,719 --> 00:01:20,400
+open AI has sanitized it so aggressively that it feels like talking to a corporate lawyer who
+
+29
+00:01:21,280 --> 00:01:23,679
+learned empathy from a TED talk
+
+30
+00:01:23,680 --> 00:01:27,920
+on the coding task it produced working code instantly
+
+31
+00:01:27,920 --> 00:01:32,320
+but refused to optimize it because the prompt might be used for scraping
+
+32
+00:01:33,280 --> 00:01:35,200
+that hesitation cost it
+
+33
+00:01:35,200 --> 00:01:36,160
+the win
+
+34
+00:01:36,160 --> 00:01:39,520
+when you are paying $20 to $200 a month
+
+35
+00:01:40,320 --> 00:01:42,560
+you want a tool that trusts you
+
+36
+00:01:42,560 --> 00:01:44,480
+not one that parent scolds you
+
+37
+00:01:45,120 --> 00:01:46,480
+section three
+
+38
+00:01:46,480 --> 00:01:47,200
+clawed
+
+39
+00:01:47,200 --> 00:01:49,120
+the writer's secret weapon
+
+40
+00:01:49,120 --> 00:01:52,800
+clawed wrote the best first draft of the creative brief
+
+41
+00:01:52,799 --> 00:01:54,399
+the pros had rhythm
+
+42
+00:01:54,399 --> 00:01:56,239
+the structure had logic
+
+43
+00:01:56,239 --> 00:01:58,719
+and the personality felt human
+
+44
+00:01:58,719 --> 00:02:01,359
+but clawed choked on the math problem
+
+45
+00:02:01,359 --> 00:02:02,479
+not a little
+
+46
+00:02:02,479 --> 00:02:04,879
+it confidently delivered the wrong answer
+
+47
+00:02:04,879 --> 00:02:07,679
+and then wrote three paragraphs defending the wrong
+
+48
+00:02:08,560 --> 00:02:11,120
+answer using fake citations
+
+49
+00:02:11,120 --> 00:02:14,800
+this is the sophisticated hallucination problem
+
+50
+00:02:14,800 --> 00:02:17,680
+if you write novels or marketing copy
+
+51
+00:02:17,680 --> 00:02:19,280
+clawed is unmatched
+
+52
+00:02:19,280 --> 00:02:20,879
+if you need facts
+
+53
+00:02:20,879 --> 00:02:22,400
+it is dangerous
+
+54
+00:02:22,480 --> 00:02:23,760
+section four
+
+55
+00:02:23,760 --> 00:02:24,960
+deep seek
+
+56
+00:02:24,960 --> 00:02:27,840
+the underdog that punches above its weight
+
+57
+00:02:27,840 --> 00:02:29,520
+deep seek is free
+
+58
+00:02:29,520 --> 00:02:30,319
+fast
+
+59
+00:02:30,319 --> 00:02:31,759
+and uncensored
+
+60
+00:02:31,759 --> 00:02:35,120
+it optimized the code without asking permission
+
+61
+00:02:35,120 --> 00:02:37,599
+solve the math problem correctly
+
+62
+00:02:37,599 --> 00:02:40,080
+and negotiate it like a shark
+
+63
+00:02:40,080 --> 00:02:42,159
+so why is it not the winner
+
+64
+00:02:42,159 --> 00:02:44,640
+because the interface is clunky
+
+65
+00:02:44,640 --> 00:02:47,599
+the context window resets randomly
+
+66
+00:02:47,599 --> 00:02:51,439
+and the web search feature is buried under three menus
+
+67
+00:02:51,520 --> 00:02:53,439
+freed is not beat usable
+
+68
+00:02:53,439 --> 00:02:57,039
+but if you are technical enough to work around the friction
+
+69
+00:02:57,039 --> 00:03:00,639
+deep seek is secretly the best value on the planet
+
+70
+00:03:00,639 --> 00:03:02,000
+section five
+
+71
+00:03:02,000 --> 00:03:02,800
+chemi
+
+72
+00:03:02,800 --> 00:03:04,400
+the surprise winner
+
+73
+00:03:04,400 --> 00:03:08,000
+chemi handled every task with the confidence of a specialist
+
+74
+00:03:08,000 --> 00:03:09,520
+who actually enjoys the work
+
+75
+00:03:10,319 --> 00:03:12,719
+the code was clean and commented
+
+76
+00:03:12,719 --> 00:03:16,079
+the math was correct and explained step by step
+
+77
+00:03:16,079 --> 00:03:21,199
+the negotiation simulation adapted to my counter offers in real time
+
+78
+00:03:21,199 --> 00:03:22,319
+and the writing
+
+79
+00:03:22,319 --> 00:03:24,799
+it was not as poetic as clawed
+
+80
+00:03:24,799 --> 00:03:27,280
+but it was accurate, structured
+
+81
+00:03:27,280 --> 00:03:29,439
+and honest about uncertainty
+
+82
+00:03:29,439 --> 00:03:31,599
+that honesty matters more than flair
+
+83
+00:03:31,599 --> 00:03:33,199
+when you are building a business
+
+84
+00:03:33,199 --> 00:03:34,959
+or debugging a failing product
+
+85
+00:03:35,759 --> 00:03:37,039
+section six
+
+86
+00:03:37,039 --> 00:03:39,039
+the cost reality check
+
+87
+00:03:39,039 --> 00:03:40,560
+chat gpt plus
+
+88
+00:03:41,280 --> 00:03:42,959
+$20 per month
+
+89
+00:03:42,959 --> 00:03:44,239
+clawed pro
+
+90
+00:03:44,239 --> 00:03:45,919
+$20 per month
+
+91
+00:03:45,919 --> 00:03:47,039
+deep seek
+
+92
+00:03:47,039 --> 00:03:48,719
+free but costs time
+
+93
+00:03:48,719 --> 00:03:49,599
+chemi
+
+94
+00:03:49,599 --> 00:03:51,120
+free tier available
+
+95
+00:03:51,120 --> 00:03:52,879
+paid tier competitive
+
+96
+00:03:52,879 --> 00:03:54,799
+here is the brutal truth
+
+97
+00:03:54,799 --> 00:03:59,599
+the best model is the one that does your specific job best writers should use clawed
+
+98
+00:04:00,400 --> 00:04:02,319
+coders should use chemi
+
+99
+00:04:02,319 --> 00:04:05,199
+rebels and hackers should use deep seek
+
+100
+00:04:05,199 --> 00:04:07,840
+chat gpt is the safe middle
+
+101
+00:04:07,840 --> 00:04:09,039
+and in AI
+
+102
+00:04:09,039 --> 00:04:12,639
+safe middle means you are paying a premium for average
+
+103
+00:04:12,639 --> 00:04:14,079
+call to action
+
+104
+00:04:14,079 --> 00:04:15,519
+final 30s
+
+105
+00:04:15,519 --> 00:04:18,639
+if this video saved you from wasting money
+
+106
+00:04:18,719 --> 00:04:20,000
+hit subscribe
+
+107
+00:04:20,000 --> 00:04:23,039
+i test AI tools so you do not have to
+
+108
+00:04:23,039 --> 00:04:28,479
+drop a comment telling me which model you are married to right now and whether this video changed
+
+109
+00:04:29,279 --> 00:04:30,319
+your mind
+
+110
+00:04:30,319 --> 00:04:31,360
+next week
+
+111
+00:04:31,360 --> 00:04:36,800
+i am pitting these same four models against each other in a 24 hour startup challenge
+
+112
+00:04:37,599 --> 00:04:41,360
+and one of them is building an actual profitable product
+
+113
+00:04:41,360 --> 00:04:43,759
+you will not believe which one

@@ -1,0 +1,747 @@
+1
+00:00:00,000 --> 00:00:03,399
+I replaced five paid apps with open source.
+
+2
+00:00:03,399 --> 00:00:05,320
+Here's my exact stack.
+
+3
+00:00:05,320 --> 00:00:06,080
+Hook.
+
+4
+00:00:06,080 --> 00:00:08,439
+0100-030.
+
+5
+00:00:08,439 --> 00:00:14,720
+I was bleeding $147 every single month on software subscriptions.
+
+6
+00:00:14,720 --> 00:00:15,720
+Notion.
+
+7
+00:00:15,720 --> 00:00:17,160
+One password.
+
+8
+00:00:17,160 --> 00:00:18,000
+Figma.
+
+9
+00:00:18,000 --> 00:00:19,080
+To-do-ist.
+
+10
+00:00:19,080 --> 00:00:20,120
+Lightroom.
+
+11
+00:00:20,120 --> 00:00:21,800
+All solid tools.
+
+12
+00:00:21,800 --> 00:00:24,160
+But my credit card was screaming.
+
+13
+00:00:24,160 --> 00:00:25,800
+Then I went nuclear.
+
+14
+00:00:25,800 --> 00:00:29,879
+I wiped the slate clean and rebuilt my entire productivity stack.
+
+15
+00:00:29,879 --> 00:00:32,960
+Using only open source software.
+
+16
+00:00:32,960 --> 00:00:34,240
+Same output.
+
+17
+00:00:34,240 --> 00:00:36,280
+Zero licensing fees.
+
+18
+00:00:36,280 --> 00:00:42,799
+And honestly, some of these free tools run circles around the paid versions I left behind.
+
+19
+00:00:42,799 --> 00:00:48,039
+Here's the exact five app swap that saved me nearly two grand a year.
+
+20
+00:00:48,039 --> 00:00:49,039
+Content.
+
+21
+00:00:49,039 --> 00:00:50,439
+Section 1.
+
+22
+00:00:50,439 --> 00:00:52,879
+Notion-right-pointing-arrow log seek.
+
+23
+00:00:52,879 --> 00:00:55,879
+The second brain that actually belongs to you.
+
+24
+00:00:55,879 --> 00:00:59,439
+I used to treat notion like my external brain.
+
+25
+00:00:59,439 --> 00:01:01,399
+Every article draft.
+
+26
+00:01:01,399 --> 00:01:02,679
+Project timeline.
+
+27
+00:01:02,679 --> 00:01:07,079
+And random shower thought lived inside those glossy little blocks.
+
+28
+00:01:07,079 --> 00:01:12,239
+Until the day I was on a four hour flight with no Wi-Fi and needed to access my content
+
+29
+00:01:12,239 --> 00:01:13,719
+calendar.
+
+30
+00:01:13,719 --> 00:01:15,200
+I opened Notion.
+
+31
+00:01:15,200 --> 00:01:18,560
+I stared at a spinning wheel for 20 minutes.
+
+32
+00:01:18,560 --> 00:01:22,879
+That was the moment I realized I wasn't building a second brain.
+
+33
+00:01:22,879 --> 00:01:26,479
+I was renting storage in someone else's warehouse.
+
+34
+00:01:26,480 --> 00:01:29,640
+And the landlord had just changed the locks.
+
+35
+00:01:29,640 --> 00:01:34,680
+Switching to log seek felt like moving from a furnished apartment into a house I actually
+
+36
+00:01:34,680 --> 00:01:35,680
+owned.
+
+37
+00:01:35,680 --> 00:01:37,760
+It's an open source.
+
+38
+00:01:37,760 --> 00:01:42,920
+Local first knowledge graph that stores everything in plain markdown files on your actual hard
+
+39
+00:01:42,920 --> 00:01:44,120
+drive.
+
+40
+00:01:44,120 --> 00:01:49,000
+I recreated my entire content pipeline using daily journals.
+
+41
+00:01:49,000 --> 00:01:50,520
+Link references.
+
+42
+00:01:50,520 --> 00:01:52,480
+And simple page properties.
+
+43
+00:01:52,480 --> 00:01:58,680
+Now, when I tag a video idea with script pending, it automatically surfaces in my weekly
+
+44
+00:01:58,680 --> 00:02:00,520
+review query.
+
+45
+00:02:00,520 --> 00:02:06,800
+The graph view even showed me connections between topics I didn't realize were related.
+
+46
+00:02:06,800 --> 00:02:09,879
+Something Notions rigid hierarchy never revealed.
+
+47
+00:02:09,879 --> 00:02:13,960
+I sink it to my private get repository for backup.
+
+48
+00:02:13,960 --> 00:02:15,840
+Which costs me nothing.
+
+49
+00:02:15,840 --> 00:02:16,840
+Best part?
+
+50
+00:02:16,840 --> 00:02:18,360
+During another flight.
+
+51
+00:02:18,360 --> 00:02:19,840
+Same laptop.
+
+52
+00:02:19,840 --> 00:02:20,840
+Zero internet.
+
+53
+00:02:20,840 --> 00:02:24,360
+I pulled up log seek and kept working seamlessly.
+
+54
+00:02:24,360 --> 00:02:25,599
+My thoughts.
+
+55
+00:02:25,599 --> 00:02:26,879
+My files.
+
+56
+00:02:26,879 --> 00:02:28,200
+My machine.
+
+57
+00:02:28,200 --> 00:02:32,240
+That's the difference between borrowing and owning your ideas.
+
+58
+00:02:32,240 --> 00:02:36,159
+Section 2 to 1 password right pointing arrow bitwarden.
+
+59
+00:02:36,159 --> 00:02:37,319
+Your keys.
+
+60
+00:02:37,319 --> 00:02:38,800
+Your kingdom.
+
+61
+00:02:38,800 --> 00:02:41,599
+Password managers are supposed to be vaults.
+
+62
+00:02:41,599 --> 00:02:46,400
+But most people are storing their gold in a safety deposit box where the bank controls
+
+63
+00:02:46,400 --> 00:02:47,960
+the key.
+
+64
+00:02:47,960 --> 00:02:53,840
+When last pass had its catastrophic breach, I looked at my one password subscription and
+
+65
+00:02:53,840 --> 00:02:56,240
+felt a familiar itch.
+
+66
+00:02:56,240 --> 00:02:59,360
+What if the next headline was theirs?
+
+67
+00:02:59,360 --> 00:03:02,480
+Exporting my data felt intentionally clunky.
+
+68
+00:03:02,480 --> 00:03:06,159
+Like a gym making cancellation harder than sign up.
+
+69
+00:03:06,159 --> 00:03:07,840
+That's not security.
+
+70
+00:03:07,840 --> 00:03:08,840
+That's custody.
+
+71
+00:03:08,840 --> 00:03:11,760
+Bitwarden is fully open source.
+
+72
+00:03:11,760 --> 00:03:15,680
+Which means its code is audited by thousands of eyes worldwide.
+
+73
+00:03:15,680 --> 00:03:18,920
+I migrated 300 passwords.
+
+74
+00:03:18,920 --> 00:03:19,920
+Credit cards.
+
+75
+00:03:19,920 --> 00:03:24,960
+And secure notes in under an hour using a simple CSV import.
+
+76
+00:03:24,960 --> 00:03:30,439
+The mobile app syncs instantly and the biometric unlock is smoother than one password was on
+
+77
+00:03:30,439 --> 00:03:32,040
+my phone.
+
+78
+00:03:32,040 --> 00:03:36,520
+For most users, the free tier is genuinely enough.
+
+79
+00:03:36,520 --> 00:03:39,960
+Unlimited passwords across unlimited devices.
+
+80
+00:03:39,960 --> 00:03:43,319
+But I went a step further and spun up vaultwarden.
+
+81
+00:03:43,319 --> 00:03:46,000
+A lightweight self-hosted fork.
+
+82
+00:03:46,000 --> 00:03:48,000
+On a cheap home server.
+
+83
+00:03:48,000 --> 00:03:51,639
+Now my encrypted vault lives on hardware I control.
+
+84
+00:03:51,639 --> 00:03:56,479
+The browser extension auto fills faster than one password ever did.
+
+85
+00:03:56,479 --> 00:04:02,439
+And the built-in TOTP generator means I don't need a separate authenticator app.
+
+86
+00:04:02,439 --> 00:04:04,959
+It's like building your own panic room.
+
+87
+00:04:04,959 --> 00:04:07,560
+You still get bank rate encryption.
+
+88
+00:04:07,560 --> 00:04:10,000
+But you hold the only key.
+
+89
+00:04:10,000 --> 00:04:13,800
+In three, Figma write pointing arrow penpot.
+
+90
+00:04:13,800 --> 00:04:15,599
+Design without the paywall.
+
+91
+00:04:15,599 --> 00:04:18,560
+Figma is the industry standard for a reason.
+
+92
+00:04:18,560 --> 00:04:22,279
+But industry standards love to move the goalposts.
+
+93
+00:04:22,279 --> 00:04:28,680
+When they locked developer handoff and advanced prototyping behind a higher paywall last year.
+
+94
+00:04:28,680 --> 00:04:32,560
+My monthly bill for two designer seats jump overnight.
+
+95
+00:04:32,560 --> 00:04:38,959
+It reminded me of a carpenter who builds an entire workshop inside someone else's garage.
+
+96
+00:04:38,959 --> 00:04:43,879
+Then wakes up to find the rent doubled and the power tools chained up.
+
+97
+00:04:43,879 --> 00:04:49,239
+Penpot is the open source design platform that runs entirely in your browser.
+
+98
+00:04:49,239 --> 00:04:53,079
+Just like Figma, but with zero strings attached.
+
+99
+00:04:53,079 --> 00:04:56,039
+Because it's built on SVG standards.
+
+100
+00:04:56,039 --> 00:05:01,199
+Every shape, board, and component you create is native web code.
+
+101
+00:05:01,199 --> 00:05:03,039
+Not a proprietary blob.
+
+102
+00:05:03,039 --> 00:05:08,679
+I rebuilt my entire YouTube thumbnail system inside Penpot in a weekend.
+
+103
+00:05:08,680 --> 00:05:15,400
+The Flex Layout system actually handles responsive design better than Figma's constraints.
+
+104
+00:05:15,400 --> 00:05:20,879
+And sharing a prototype with a freelancer is as simple as sending a URL.
+
+105
+00:05:20,879 --> 00:05:22,480
+No seat limits.
+
+106
+00:05:22,480 --> 00:05:24,360
+No dev mode upsell.
+
+107
+00:05:24,360 --> 00:05:26,560
+If Penpot ever disappears.
+
+108
+00:05:26,560 --> 00:05:29,399
+I still own every SVG file.
+
+109
+00:05:29,399 --> 00:05:33,000
+Try saying that about a Figma design locked in the cloud.
+
+110
+00:05:33,000 --> 00:05:36,160
+The learning curve is about 48 hours.
+
+111
+00:05:36,160 --> 00:05:38,280
+The freedom is permanent.
+
+112
+00:05:38,280 --> 00:05:39,280
+Section 4.
+
+113
+00:05:39,280 --> 00:05:43,080
+To doist right-pointing arrow super productivity.
+
+114
+00:05:43,080 --> 00:05:44,680
+Pasks on steroids.
+
+115
+00:05:44,680 --> 00:05:46,520
+To doist is beautiful.
+
+116
+00:05:46,520 --> 00:05:50,480
+But it's also a masterclass in the productivity tax.
+
+117
+00:05:50,480 --> 00:05:54,920
+Charging you subscription fees for features that should be table stakes.
+
+118
+00:05:54,920 --> 00:06:00,000
+I remember missing a client deadline because to doist hid the reminder behind a premium
+
+119
+00:06:00,000 --> 00:06:01,879
+badge.
+
+120
+00:06:01,879 --> 00:06:06,879
+Even buying a car and discovering the brakes are part of a DLC pack.
+
+121
+00:06:06,879 --> 00:06:13,000
+That's when I started hunting for a task manager that respects both my time and my wallet.
+
+122
+00:06:13,000 --> 00:06:18,240
+Super productivity is an open source desktop app that looks simple until you realize it's
+
+123
+00:06:18,240 --> 00:06:19,360
+a...
+
+124
+00:06:19,360 --> 00:06:21,079
+Pactical Command Center.
+
+125
+00:06:21,079 --> 00:06:27,000
+The keyboard shortcuts alone saved me more time in a week than to doist did in a month.
+
+126
+00:06:27,000 --> 00:06:29,759
+I used it to produce this very video.
+
+127
+00:06:29,759 --> 00:06:32,599
+I broke the script into subtasks.
+
+128
+00:06:32,599 --> 00:06:34,759
+Assigned time estimates.
+
+129
+00:06:34,759 --> 00:06:40,360
+And used the built-in Pomodoro timer to stay honest during writing sessions.
+
+130
+00:06:40,360 --> 00:06:45,639
+When I dragged a task onto the calendar view, it automatically blocked out research time
+
+131
+00:06:45,639 --> 00:06:49,439
+and flagged conflicts with my recording schedule.
+
+132
+00:06:49,439 --> 00:06:54,079
+It even tracks how long I actually spend versus what I predicted.
+
+133
+00:06:54,079 --> 00:06:57,079
+So my estimates get sharper every week.
+
+134
+00:06:57,079 --> 00:07:00,279
+There are no artificial caps on projects.
+
+135
+00:07:00,279 --> 00:07:02,959
+No paywalls on notifications.
+
+136
+00:07:02,959 --> 00:07:04,759
+And no cloud required.
+
+137
+00:07:04,759 --> 00:07:07,039
+It lives on your machine.
+
+138
+00:07:07,039 --> 00:07:08,800
+Starts in under a second.
+
+139
+00:07:08,800 --> 00:07:12,240
+And treats you like a power user from day one.
+
+140
+00:07:12,240 --> 00:07:13,240
+Section 5.
+
+141
+00:07:13,240 --> 00:07:16,680
+Adobe Lightroom Right Pointing Arrow Darktable.
+
+142
+00:07:16,680 --> 00:07:17,680
+Raw Power.
+
+143
+00:07:17,680 --> 00:07:19,000
+Zero Rent.
+
+144
+00:07:19,000 --> 00:07:22,959
+Adobe's photography ecosystem is a velvet trap.
+
+145
+00:07:22,959 --> 00:07:25,479
+They hook you with student pricing.
+
+146
+00:07:25,480 --> 00:07:30,600
+Unslowly crank the subscription dial while your entire photo library gets glued to their
+
+147
+00:07:30,600 --> 00:07:32,319
+cloud.
+
+148
+00:07:32,319 --> 00:07:39,319
+Last year, my creative cloud bill crossed $200 annually just for Lightroom and Photoshop.
+
+149
+00:07:39,319 --> 00:07:42,439
+I had 50,000 raw photos.
+
+150
+00:07:42,439 --> 00:07:44,680
+Essentially my visual memory.
+
+151
+00:07:44,680 --> 00:07:48,439
+Locked inside an ecosystem that could change pricing.
+
+152
+00:07:48,439 --> 00:07:49,439
+Terms.
+
+153
+00:07:49,439 --> 00:07:51,600
+Or access whenever they wanted.
+
+154
+00:07:51,600 --> 00:07:56,280
+Just like developing photos in a darkroom where the landlord can walk in and turn off
+
+155
+00:07:56,280 --> 00:07:58,360
+the safe lights.
+
+156
+00:07:58,360 --> 00:08:03,600
+Darktable is the open source raw processor that professional photographers secretly swear
+
+157
+00:08:03,600 --> 00:08:04,800
+by.
+
+158
+00:08:04,800 --> 00:08:11,360
+I imported my entire four terabytes Sony A7IV image archive in one evening.
+
+159
+00:08:11,360 --> 00:08:16,920
+The filmic RGB module gives me color grading control that rivals Lightroom's developed
+
+160
+00:08:16,920 --> 00:08:18,360
+panel.
+
+161
+00:08:18,360 --> 00:08:23,840
+And every single edit is saved as a sidecar file next to the original raw.
+
+162
+00:08:23,840 --> 00:08:27,160
+That means if I uninstall Darktable tomorrow.
+
+163
+00:08:27,160 --> 00:08:31,160
+My edits are still readable, portable, and mine.
+
+164
+00:08:31,160 --> 00:08:36,360
+I build a custom preset stack for my YouTube thumbnails so every photo starts with the
+
+165
+00:08:36,360 --> 00:08:37,919
+same.
+
+166
+00:08:37,919 --> 00:08:41,240
+Baseline contrast and skin tone protection.
+
+167
+00:08:41,240 --> 00:08:42,800
+No monthly fee.
+
+168
+00:08:42,800 --> 00:08:45,080
+No cloud upload bottleneck.
+
+169
+00:08:45,080 --> 00:08:51,360
+First raw processing power that respects the fact that your portfolio is a lifetime asset.
+
+170
+00:08:51,360 --> 00:08:52,360
+Not a rental.
+
+171
+00:08:52,360 --> 00:08:54,080
+Call to action.
+
+172
+00:08:54,080 --> 00:08:55,400
+Final 30s.
+
+173
+00:08:55,400 --> 00:08:57,920
+Here's the truth nobody tells you.
+
+174
+00:08:57,920 --> 00:09:03,360
+Open source isn't about suffering through clunky software to save a few bucks.
+
+175
+00:09:03,360 --> 00:09:04,920
+It's about ownership.
+
+176
+00:09:04,920 --> 00:09:07,120
+When you control your tools.
+
+177
+00:09:07,120 --> 00:09:09,080
+You control your workflow.
+
+178
+00:09:09,080 --> 00:09:10,080
+Your data.
+
+179
+00:09:10,080 --> 00:09:11,600
+And your monthly budget.
+
+180
+00:09:11,600 --> 00:09:17,080
+If you want me to do a deep dive setup tutorial on any of these five apps.
+
+181
+00:09:17,080 --> 00:09:19,120
+Drop the name in the comments.
+
+182
+00:09:19,120 --> 00:09:21,800
+And if you're still on the fence about one.
+
+183
+00:09:21,800 --> 00:09:24,920
+Tell me which paid tool you're most scared to lose.
+
+184
+00:09:24,920 --> 00:09:29,279
+I'll reply with a migration battle plan that covers export.
+
+185
+00:09:29,279 --> 00:09:30,279
+Import.
+
+186
+00:09:30,279 --> 00:09:32,680
+And the first week of habit adjustment.
+
+187
+00:09:32,680 --> 00:09:33,920
+See you in the next one.

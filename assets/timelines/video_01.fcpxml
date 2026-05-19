@@ -1,0 +1,94 @@
+<?xml version="1.0" ?>
+<fcpxml version="1.9">
+  <resources>
+    <format id="r1" name="FFVideoFormat1080p24" frameDuration="1/24s" width="1920" height="1080"/>
+    <asset id="rv1" name="clip_01_4OY07Bo5PnY.mp4" uid="uid_clip_01_4OY07Bo5PnY" src="/Users/markgallo/Documents/Hermes/yt_factory/assets/stock/video_01/clip_01_4OY07Bo5PnY.mp4" start="0s" duration="252/24s" hasVideo="1" hasAudio="0" format="r1"/>
+    <asset id="rv2" name="clip_02_9oyFU2IQHIc.mp4" uid="uid_clip_02_9oyFU2IQHIc" src="/Users/markgallo/Documents/Hermes/yt_factory/assets/stock/video_01/clip_02_9oyFU2IQHIc.mp4" start="0s" duration="153/24s" hasVideo="1" hasAudio="0" format="r1"/>
+    <asset id="ra_hook" name="hook_01.mp3" uid="uid_hook_01" src="/Users/markgallo/Documents/Hermes/yt_factory/voiceovers/hooks/hook_01.mp3" start="0s" duration="1181/24s" hasVideo="0" hasAudio="1"/>
+    <asset id="ra_full" name="full_01.mp3" uid="uid_full_01" src="/Users/markgallo/Documents/Hermes/yt_factory/voiceovers/full/full_01.mp3" start="0s" duration="14426/24s" hasVideo="0" hasAudio="1"/>
+  </resources>
+  <library>
+    <event name="video_01">
+      <project name="video_01">
+        <sequence duration="14474/24s" format="r1" tcStart="0s" tcFormat="NDF" audioLayout="stereo" audioRate="48k">
+          <spine>
+            <video name="clip_01_4OY07Bo5PnY.mp4" ref="rv1" offset="0/24s" duration="252/24s" start="0s"/>
+            <video name="clip_02_9oyFU2IQHIc.mp4" ref="rv2" offset="252/24s" duration="153/24s" start="0s"/>
+            <video name="clip_01_4OY07Bo5PnY.mp4" ref="rv1" offset="405/24s" duration="252/24s" start="0s"/>
+            <video name="clip_02_9oyFU2IQHIc.mp4" ref="rv2" offset="657/24s" duration="153/24s" start="0s"/>
+            <video name="clip_01_4OY07Bo5PnY.mp4" ref="rv1" offset="810/24s" duration="252/24s" start="0s"/>
+            <video name="clip_02_9oyFU2IQHIc.mp4" ref="rv2" offset="1062/24s" duration="153/24s" start="0s"/>
+            <video name="clip_01_4OY07Bo5PnY.mp4" ref="rv1" offset="1215/24s" duration="252/24s" start="0s"/>
+            <video name="clip_02_9oyFU2IQHIc.mp4" ref="rv2" offset="1467/24s" duration="153/24s" start="0s"/>
+            <video name="clip_01_4OY07Bo5PnY.mp4" ref="rv1" offset="1620/24s" duration="252/24s" start="0s"/>
+            <video name="clip_02_9oyFU2IQHIc.mp4" ref="rv2" offset="1872/24s" duration="153/24s" start="0s"/>
+            <video name="clip_01_4OY07Bo5PnY.mp4" ref="rv1" offset="2025/24s" duration="252/24s" start="0s"/>
+            <video name="clip_02_9oyFU2IQHIc.mp4" ref="rv2" offset="2277/24s" duration="153/24s" start="0s"/>
+            <video name="clip_01_4OY07Bo5PnY.mp4" ref="rv1" offset="2430/24s" duration="252/24s" start="0s"/>
+            <video name="clip_02_9oyFU2IQHIc.mp4" ref="rv2" offset="2682/24s" duration="153/24s" start="0s"/>
+            <video name="clip_01_4OY07Bo5PnY.mp4" ref="rv1" offset="2835/24s" duration="252/24s" start="0s"/>
+            <video name="clip_02_9oyFU2IQHIc.mp4" ref="rv2" offset="3087/24s" duration="153/24s" start="0s"/>
+            <video name="clip_01_4OY07Bo5PnY.mp4" ref="rv1" offset="3240/24s" duration="252/24s" start="0s"/>
+            <video name="clip_02_9oyFU2IQHIc.mp4" ref="rv2" offset="3492/24s" duration="153/24s" start="0s"/>
+            <video name="clip_01_4OY07Bo5PnY.mp4" ref="rv1" offset="3645/24s" duration="252/24s" start="0s"/>
+            <video name="clip_02_9oyFU2IQHIc.mp4" ref="rv2" offset="3897/24s" duration="153/24s" start="0s"/>
+            <video name="clip_01_4OY07Bo5PnY.mp4" ref="rv1" offset="4050/24s" duration="252/24s" start="0s"/>
+            <video name="clip_02_9oyFU2IQHIc.mp4" ref="rv2" offset="4302/24s" duration="153/24s" start="0s"/>
+            <video name="clip_01_4OY07Bo5PnY.mp4" ref="rv1" offset="4455/24s" duration="252/24s" start="0s"/>
+            <video name="clip_02_9oyFU2IQHIc.mp4" ref="rv2" offset="4707/24s" duration="153/24s" start="0s"/>
+            <video name="clip_01_4OY07Bo5PnY.mp4" ref="rv1" offset="4860/24s" duration="252/24s" start="0s"/>
+            <video name="clip_02_9oyFU2IQHIc.mp4" ref="rv2" offset="5112/24s" duration="153/24s" start="0s"/>
+            <video name="clip_01_4OY07Bo5PnY.mp4" ref="rv1" offset="5265/24s" duration="252/24s" start="0s"/>
+            <video name="clip_02_9oyFU2IQHIc.mp4" ref="rv2" offset="5517/24s" duration="153/24s" start="0s"/>
+            <video name="clip_01_4OY07Bo5PnY.mp4" ref="rv1" offset="5670/24s" duration="252/24s" start="0s"/>
+            <video name="clip_02_9oyFU2IQHIc.mp4" ref="rv2" offset="5922/24s" duration="153/24s" start="0s"/>
+            <video name="clip_01_4OY07Bo5PnY.mp4" ref="rv1" offset="6075/24s" duration="252/24s" start="0s"/>
+            <video name="clip_02_9oyFU2IQHIc.mp4" ref="rv2" offset="6327/24s" duration="153/24s" start="0s"/>
+            <video name="clip_01_4OY07Bo5PnY.mp4" ref="rv1" offset="6480/24s" duration="252/24s" start="0s"/>
+            <video name="clip_02_9oyFU2IQHIc.mp4" ref="rv2" offset="6732/24s" duration="153/24s" start="0s"/>
+            <video name="clip_01_4OY07Bo5PnY.mp4" ref="rv1" offset="6885/24s" duration="252/24s" start="0s"/>
+            <video name="clip_02_9oyFU2IQHIc.mp4" ref="rv2" offset="7137/24s" duration="153/24s" start="0s"/>
+            <video name="clip_01_4OY07Bo5PnY.mp4" ref="rv1" offset="7290/24s" duration="252/24s" start="0s"/>
+            <video name="clip_02_9oyFU2IQHIc.mp4" ref="rv2" offset="7542/24s" duration="153/24s" start="0s"/>
+            <video name="clip_01_4OY07Bo5PnY.mp4" ref="rv1" offset="7695/24s" duration="252/24s" start="0s"/>
+            <video name="clip_02_9oyFU2IQHIc.mp4" ref="rv2" offset="7947/24s" duration="153/24s" start="0s"/>
+            <video name="clip_01_4OY07Bo5PnY.mp4" ref="rv1" offset="8100/24s" duration="252/24s" start="0s"/>
+            <video name="clip_02_9oyFU2IQHIc.mp4" ref="rv2" offset="8352/24s" duration="153/24s" start="0s"/>
+            <video name="clip_01_4OY07Bo5PnY.mp4" ref="rv1" offset="8505/24s" duration="252/24s" start="0s"/>
+            <video name="clip_02_9oyFU2IQHIc.mp4" ref="rv2" offset="8757/24s" duration="153/24s" start="0s"/>
+            <video name="clip_01_4OY07Bo5PnY.mp4" ref="rv1" offset="8910/24s" duration="252/24s" start="0s"/>
+            <video name="clip_02_9oyFU2IQHIc.mp4" ref="rv2" offset="9162/24s" duration="153/24s" start="0s"/>
+            <video name="clip_01_4OY07Bo5PnY.mp4" ref="rv1" offset="9315/24s" duration="252/24s" start="0s"/>
+            <video name="clip_02_9oyFU2IQHIc.mp4" ref="rv2" offset="9567/24s" duration="153/24s" start="0s"/>
+            <video name="clip_01_4OY07Bo5PnY.mp4" ref="rv1" offset="9720/24s" duration="252/24s" start="0s"/>
+            <video name="clip_02_9oyFU2IQHIc.mp4" ref="rv2" offset="9972/24s" duration="153/24s" start="0s"/>
+            <video name="clip_01_4OY07Bo5PnY.mp4" ref="rv1" offset="10125/24s" duration="252/24s" start="0s"/>
+            <video name="clip_02_9oyFU2IQHIc.mp4" ref="rv2" offset="10377/24s" duration="153/24s" start="0s"/>
+            <video name="clip_01_4OY07Bo5PnY.mp4" ref="rv1" offset="10530/24s" duration="252/24s" start="0s"/>
+            <video name="clip_02_9oyFU2IQHIc.mp4" ref="rv2" offset="10782/24s" duration="153/24s" start="0s"/>
+            <video name="clip_01_4OY07Bo5PnY.mp4" ref="rv1" offset="10935/24s" duration="252/24s" start="0s"/>
+            <video name="clip_02_9oyFU2IQHIc.mp4" ref="rv2" offset="11187/24s" duration="153/24s" start="0s"/>
+            <video name="clip_01_4OY07Bo5PnY.mp4" ref="rv1" offset="11340/24s" duration="252/24s" start="0s"/>
+            <video name="clip_02_9oyFU2IQHIc.mp4" ref="rv2" offset="11592/24s" duration="153/24s" start="0s"/>
+            <video name="clip_01_4OY07Bo5PnY.mp4" ref="rv1" offset="11745/24s" duration="252/24s" start="0s"/>
+            <video name="clip_02_9oyFU2IQHIc.mp4" ref="rv2" offset="11997/24s" duration="153/24s" start="0s"/>
+            <video name="clip_01_4OY07Bo5PnY.mp4" ref="rv1" offset="12150/24s" duration="252/24s" start="0s"/>
+            <video name="clip_02_9oyFU2IQHIc.mp4" ref="rv2" offset="12402/24s" duration="153/24s" start="0s"/>
+            <video name="clip_01_4OY07Bo5PnY.mp4" ref="rv1" offset="12555/24s" duration="252/24s" start="0s"/>
+            <video name="clip_02_9oyFU2IQHIc.mp4" ref="rv2" offset="12807/24s" duration="153/24s" start="0s"/>
+            <video name="clip_01_4OY07Bo5PnY.mp4" ref="rv1" offset="12960/24s" duration="252/24s" start="0s"/>
+            <video name="clip_02_9oyFU2IQHIc.mp4" ref="rv2" offset="13212/24s" duration="153/24s" start="0s"/>
+            <video name="clip_01_4OY07Bo5PnY.mp4" ref="rv1" offset="13365/24s" duration="252/24s" start="0s"/>
+            <video name="clip_02_9oyFU2IQHIc.mp4" ref="rv2" offset="13617/24s" duration="153/24s" start="0s"/>
+            <video name="clip_01_4OY07Bo5PnY.mp4" ref="rv1" offset="13770/24s" duration="252/24s" start="0s"/>
+            <video name="clip_02_9oyFU2IQHIc.mp4" ref="rv2" offset="14022/24s" duration="153/24s" start="0s"/>
+            <video name="clip_01_4OY07Bo5PnY.mp4" ref="rv1" offset="14175/24s" duration="252/24s" start="0s"/>
+            <video name="clip_02_9oyFU2IQHIc.mp4" ref="rv2" offset="14427/24s" duration="47/24s" start="0s"/>
+            <audio name="full_01.mp3" ref="ra_full" offset="0s" duration="14426/24s" start="0s" srcCh="1,2"/>
+            <audio name="hook_01.mp3" ref="ra_hook" offset="0s" duration="120/24s" start="0s" srcCh="1,2" role="dialogue"/>
+          </spine>
+        </sequence>
+      </project>
+    </event>
+  </library>
+</fcpxml>

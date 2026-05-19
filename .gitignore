@@ -1,0 +1,35 @@
+# Secrets
+.env
+*.env
+client_secret.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp
+assets/final/.tmp/
+*.tmp
+
+# IDE
+.vscode/
+.idea/
+
+# Generated media (large, not source)
+assets/stock/
+assets/final/
+assets/thumbnails/
+voiceovers/full/
+voiceovers/hooks/
+voiceovers/*.mp3
+voiceovers/*.ogg
+
+# Claude/omc temp state
+.omc/
