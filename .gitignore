@@ -33,3 +33,8 @@ voiceovers/*.ogg
 
 # Claude/omc temp state
 .omc/
+
+# Generated intermediates (reproducible from scripts/)
+assets/captions/
+assets/timelines/
+voiceovers/*.txt

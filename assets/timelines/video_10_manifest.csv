@@ -1,8 +1,0 @@
-type,filename,duration_seconds,notes
-thumbnail,video_10.png,-,YouTube thumbnail
-hook_audio,hook_10.mp3,35.76,First 5s hook
-full_audio,full_10.mp3,584.14,Main narration
-broll,clip_01_zce3IGhZL6g.mp4,12.21,Loop/cut to fit narration
-broll,clip_02_N0SYCyS2xZA.mp4,161.91,Loop/cut to fit narration
-script,video_10_script.md,-,Voiceover source text
-meta,video_10_meta.json,-,Title/tags/description
