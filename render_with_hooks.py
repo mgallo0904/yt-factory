@@ -3,17 +3,16 @@
 render_with_hooks.py
 Concatenate hook audio + full narration audio, then build final 1080p MP4s.
 
-Prerequisite: place hook_NN.mp3 files in hooks_dir
-          full_NN.mp3 files are taken from full_dir.
+Prerequisite: place hook_NN.mp3 files in HOOKS_DIR (your Orpheus LoRA output).
+          full_NN.mp3 files are taken from FULL_DIR.
 
-Uses raw PCM bytes concatenation for seamless audio joining.
+Uses ffmpeg concat demuxer for gapless audio joining.
 """
 
 from pathlib import Path
 import subprocess
 import sys
 import re
-import wave
 
 BASE = Path(__file__).parent.resolve()
 HOOKS_DIR = BASE / "voiceovers_AI" / "hooks"
@@ -24,8 +23,8 @@ NORM_DIR = BASE / "assets" / "stock_norm"
 OUT_DIR = BASE / "assets" / "final"
 META_DIR = BASE / "scripts"
 
-FFMPEG = "/usr/local/bin/ffmpeg"
-FFPROBE = "/usr/local/bin/ffprobe"
+FFMPEG = "/usr/bin/ffmpeg"
+FFPROBE = "/usr/bin/ffprobe"
 
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 NORM_DIR.mkdir(parents=True, exist_ok=True)
@@ -54,7 +53,7 @@ def normalize_clip(raw: Path, slug: str) -> Path:
         "-threads", "2",
         "-i", str(raw),
         "-vf", "scale=1920:1080:force_original_aspect_ratio=decrease,pad=1920:1080:(ow-iw)/2:(oh-ih)/2,setsar=1,format=yuv420p",
-        "-c:v", "h264_videotoolbox", "-allow_sw", "0",
+        "-c:v", "libx264", "-preset", "veryfast",
         "-b:v", "10000k", "-maxrate", "12000k", "-bufsize", "24000k",
         "-c:a", "aac", "-b:a", "192k",
         "-r", "30", "-movflags", "+faststart",
@@ -92,40 +91,24 @@ def build_concat_list(stock_clips, target_dur, list_path):
     return total
 
 
-def combine_audio(hook_mp3: Path, full_mp3: Path, out_wav: Path) -> bool:
-    """Concatenate hook then full audio by decoding to raw PCM and joining bytes."""
-    if out_wav.exists():
+def combine_audio(hook_mp3: Path, full_mp3: Path, out_mp3: Path) -> bool:
+    """Concatenate hook then full audio using ffmpeg concat demuxer."""
+    if out_mp3.exists():
         return True
-
-    tmp_dir = out_wav.parent / ".tmp"
-    tmp_dir.mkdir(parents=True, exist_ok=True)
-
-    hook_raw = tmp_dir / f"{hook_mp3.stem}.raw"
-    full_raw = tmp_dir / f"{full_mp3.stem}.raw"
-
-    for src, dst in [(hook_mp3, hook_raw), (full_mp3, full_raw)]:
-        res = subprocess.run(
-            [FFMPEG, "-y", "-i", str(src),
-             "-ar", "24000", "-ac", "1", "-f", "s16le",
-             str(dst)],
-            capture_output=True, text=True, timeout=60
-        )
-        if res.returncode != 0 or dst.stat().st_size == 0:
-            print(f"  ! Failed to decode {src.name}: {res.stderr[-200:]}")
-            return False
-
-    combined_raw = tmp_dir / "combined.raw"
-    combined_raw.write_bytes(hook_raw.read_bytes() + full_raw.read_bytes())
-
-    with wave.open(str(out_wav), "wb") as wf:
-        wf.setnchannels(1)
-        wf.setsampwidth(2)
-        wf.setframerate(24000)
-        wf.writeframes(combined_raw.read_bytes())
-
-    for f in [hook_raw, full_raw, combined_raw]:
-        f.unlink(missing_ok=True)
-
+    # Use concat filter for gapless joining (same codec, no re-encode needed since both MP3)
+    # We decode and re-encode aac to ensure seamless stitching
+    cmd = [
+        FFMPEG, "-y",
+        "-i", str(hook_mp3), "-i", str(full_mp3),
+        "-filter_complex", "[0:a:0][1:a:0]concat=n=2:v=0:a=1[outa]",
+        "-map", "[outa]",
+        "-c:a", "libmp3lame", "-q:a", "2",
+        str(out_mp3)
+    ]
+    result = subprocess.run(cmd, capture_output=True, text=True, timeout=120)
+    if result.returncode != 0:
+        print(f"  ! Audio combine failed: {result.stderr[-400:]}")
+        return False
     return True
 
 
@@ -198,13 +181,14 @@ def main():
         print("No meta files found.")
         sys.exit(1)
 
-    # Pre-check
     any_missing = False
     for mf in meta_files:
         slug = slug_from_filename(mf.name)
         idx = slug.split("_")[-1]
         hook_mp3 = args.hooks_dir / f"hook_{idx}.mp3"
         full_mp3 = args.full_dir / f"full_{idx}.mp3"
+        combined_mp3 = COMBINED_DIR / f"combined_{idx}.mp3"
+
         if not hook_mp3.exists():
             print(f"[{slug}] ! Missing hook: {hook_mp3}")
             any_missing = True
@@ -216,6 +200,8 @@ def main():
 
     if any_missing:
         print("\nSome hook audio files are missing.")
+        print("Generate them with your Orpheus LoRA and place in voiceovers/hooks/")
+        print("Then run this script again.")
         sys.exit(1)
 
     print(f"Rendering {len(meta_files)} videos with hooks prepended...\n")
@@ -227,9 +213,10 @@ def main():
         idx = slug.split("_")[-1]
         hook_mp3 = args.hooks_dir / f"hook_{idx}.mp3"
         full_mp3 = args.full_dir / f"full_{idx}.mp3"
-        combined_wav = COMBINED_DIR / f"combined_{idx}.wav"
+        combined_mp3 = COMBINED_DIR / f"combined_{idx}.mp3"
 
-        ok = combine_audio(hook_mp3, full_mp3, combined_wav)
+        # Combine hook + full audio
+        ok = combine_audio(hook_mp3, full_mp3, combined_mp3)
         if not ok:
             continue
 
@@ -239,9 +226,11 @@ def main():
             print(f"  ! No stock clips in {stock_dir}")
             continue
 
-        render_video(slug, stock_clips, combined_wav, force=args.force)
+        render_video(slug, stock_clips, combined_mp3, force=args.force)
 
-    print(f"\nDone. Final videos saved to: {OUT_DIR}")
+    print(f"\nDone. Final videos saved to {OUT_DIR}")
+    dur = probe_duration(list(COMBINED_DIR.glob("combined_*.mp3"))[0]) if list(COMBINED_DIR.glob("combined_*.mp3")) else 0
+    print(f"Combined audio is in {COMBINED_DIR}")
 
 
 if __name__ == "__main__":

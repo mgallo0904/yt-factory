@@ -40,3 +40,11 @@ voiceovers_AI/
 assets/captions/
 assets/timelines/
 voiceovers/*.txt
+
+# Generated Colab media/output files
+final_videos_with_hooks.zip
+full_*.mp3
+stock.zip
+*.mp4
+*.mov
+*.wav
