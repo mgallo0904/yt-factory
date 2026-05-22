@@ -6,6 +6,7 @@ import json
 import re
 import subprocess
 from pathlib import Path
+from typing import List
 
 OUTPUT = Path("./assets/stock")
 OUTPUT.mkdir(parents=True, exist_ok=True)
@@ -15,7 +16,7 @@ PYTHON = "/opt/homebrew/Caskroom/miniforge/base/envs/numerai/bin/python"
 MAX_PER_TOPIC = 4
 
 
-def extract_tool_names(script_text: str) -> list[str]:
+def extract_tool_names(script_text: str) -> List[str]:
     """Pull actual product/tool names mentioned in the script."""
     tools = []
     # Match patterns like "Microsoft Copilot", "Reclaim.ai", "Notion AI"
@@ -28,7 +29,7 @@ def extract_tool_names(script_text: str) -> list[str]:
     return tools[:6]
 
 
-def extract_scene_keywords(script_text: str) -> list[str]:
+def extract_scene_keywords(script_text: str) -> List[str]:
     """Pull visual scene keywords from narration."""
     keywords = []
 
@@ -58,7 +59,7 @@ def extract_scene_keywords(script_text: str) -> list[str]:
     return keywords[:4]
 
 
-def build_queries_for_script(meta_path: Path) -> list[str]:
+def build_queries_for_script(meta_path: Path) -> List[str]:
     """Given a script meta file, find the matching .md and return search queries."""
     # meta file is like 01_meta.json, find 01_*.md
     idx_match = re.match(r'^(\d+)_', meta_path.name)
@@ -95,7 +96,7 @@ def build_queries_for_script(meta_path: Path) -> list[str]:
     return queries
 
 
-def download_topic(idx: str, queries: list[str]):
+def download_topic(idx: str, queries: List[str]):
     topic_dir = OUTPUT / f"video_{idx}"
     topic_dir.mkdir(parents=True, exist_ok=True)
 

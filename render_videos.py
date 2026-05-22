@@ -7,6 +7,7 @@ NO subtitle burning — SRT captions are uploaded separately to YouTube (togglea
 Output: assets/final/video_XX.mp4
 """
 
+from typing import List
 import json
 import os
 import re
@@ -65,7 +66,7 @@ def normalize_clip(raw: Path, slug: str) -> Path:
     return out if out.exists() else raw
 
 
-def build_concat_list(stock_clips: list[Path], target_dur: float, list_path: Path) -> None:
+def build_concat_list(stock_clips: List[Path], target_dur: float, list_path: Path) -> None:
     total = 0.0
     lines = []
     clips = [c for c in stock_clips if c.exists()]
@@ -88,7 +89,7 @@ def build_concat_list(stock_clips: list[Path], target_dur: float, list_path: Pat
     list_path.write_text("\n".join(lines), encoding="utf-8")
 
 
-def render_video(slug: str, stock_clips: list[Path], full_audio: Path) -> Path:
+def render_video(slug: str, stock_clips: List[Path], full_audio: Path) -> Path:
     out_path = OUT_DIR / f"{slug}.mp4"
     if out_path.exists():
         print(f"  {out_path.name} already exists, skipping.")
