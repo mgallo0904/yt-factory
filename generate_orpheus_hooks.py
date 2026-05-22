@@ -14,7 +14,7 @@ from orpheus_tts import OrpheusModel
 import torch
 
 SCRIPT_DIR = Path("./scripts")
-HOOK_DIR = Path("./voiceovers/hooks")
+HOOK_DIR = Path("./voiceovers_AI/hooks")
 HOOK_DIR.mkdir(parents=True, exist_ok=True)
 
 MODEL_NAME = os.getenv("ORPHEUS_MODEL_NAME", "/content/orpheus_lora_merged")
