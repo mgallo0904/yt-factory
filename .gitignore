@@ -31,6 +31,7 @@ voiceovers/full/
 voiceovers/hooks/
 voiceovers/*.mp3
 voiceovers/*.ogg
+voiceovers_AI/
 
 # Claude/omc temp state
 .omc/

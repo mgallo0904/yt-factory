@@ -18,7 +18,6 @@ from pathlib import Path
 BASE = Path(__file__).parent.resolve()
 STOCK_DIR = BASE / "assets" / "stock"
 NORM_DIR = BASE / "assets" / "stock_norm"
-FULL_DIR = BASE / "voiceovers" / "full"
 META_DIR = BASE / "scripts"
 OUT_DIR = BASE / "assets" / "final"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
@@ -26,6 +25,18 @@ NORM_DIR.mkdir(parents=True, exist_ok=True)
 
 FFMPEG = "/usr/local/bin/ffmpeg"
 FFPROBE = "/usr/local/bin/ffprobe"
+
+
+def get_voiceover_dir(args: list = None) -> Path:
+    import argparse
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--voiceover-dir", default="voiceovers_AI/full", type=Path, help="Directory containing full_NN.mp3 audio files")
+    parsed, _ = ap.parse_known_args(args)
+    d = BASE / parsed.voiceover_dir
+    return d if parsed.voiceover_dir.is_absolute() else BASE / parsed.voiceover_dir
+
+
+FULL_DIR = get_voiceover_dir()
 
 
 def probe_duration(path: Path) -> float:
@@ -89,9 +100,9 @@ def build_concat_list(stock_clips: List[Path], target_dur: float, list_path: Pat
     list_path.write_text("\n".join(lines), encoding="utf-8")
 
 
-def render_video(slug: str, stock_clips: List[Path], full_audio: Path) -> Path:
+def render_video(slug: str, stock_clips: List[Path], full_audio: Path, force: bool = False) -> Path:
     out_path = OUT_DIR / f"{slug}.mp4"
-    if out_path.exists():
+    if out_path.exists() and not force:
         print(f"  {out_path.name} already exists, skipping.")
         return out_path
 
@@ -152,10 +163,17 @@ def slug_from_filename(name: str) -> str:
 
 
 def main():
+    import argparse
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--voiceover-dir", default="voiceovers_AI/full", type=Path, help="Directory containing full_NN.mp3 audio files")
+    ap.add_argument("--force", action="store_true", help="Overwrite existing final videos")
     meta_files = sorted(META_DIR.glob("*_meta.json"))
     if not meta_files:
         print("No meta files found.")
         sys.exit(1)
+
+    args, _ = ap.parse_known_args()
+    full_dir = args.voiceover_dir if args.voiceover_dir.is_absolute() else BASE / args.voiceover_dir
 
     print(f"Rendering {len(meta_files)} videos ...\n")
 
@@ -164,7 +182,7 @@ def main():
         print(f"[{slug}]")
 
         idx = slug.split("_")[-1]
-        full_audio = FULL_DIR / f"full_{idx.zfill(2)}.mp3"
+        full_audio = full_dir / f"full_{idx.zfill(2)}.mp3"
         stock_dir = STOCK_DIR / slug
         stock_clips = sorted(stock_dir.glob("*.mp4")) if stock_dir.exists() else []
 
@@ -175,7 +193,7 @@ def main():
             print(f"  ! No stock clips in {stock_dir}")
             continue
 
-        render_video(slug, stock_clips, full_audio)
+        render_video(slug, stock_clips, full_audio, force=args.force)
 
     print(f"\nDone. Final videos saved to: {OUT_DIR}")
 
