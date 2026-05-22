@@ -27,13 +27,14 @@ FFMPEG = "/usr/local/bin/ffmpeg"
 FFPROBE = "/usr/local/bin/ffprobe"
 
 
-def get_voiceover_dir(args: list = None) -> Path:
+def get_voiceover_dir() -> Path:
     import argparse
     ap = argparse.ArgumentParser()
-    ap.add_argument("--voiceover-dir", default="voiceovers_AI/full", type=Path, help="Directory containing full_NN.mp3 audio files")
-    parsed, _ = ap.parse_known_args(args)
-    d = BASE / parsed.voiceover_dir
-    return d if parsed.voiceover_dir.is_absolute() else BASE / parsed.voiceover_dir
+    ap.add_argument("--voiceover-dir", default="voiceovers_AI/full", type=Path,
+                     help="Directory containing full_NN.mp3 audio files")
+    parsed, _ = ap.parse_known_args()
+    d = parsed.voiceover_dir
+    return d if d.is_absolute() else BASE / d
 
 
 FULL_DIR = get_voiceover_dir()
