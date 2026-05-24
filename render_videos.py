@@ -30,7 +30,7 @@ FFPROBE = "/usr/local/bin/ffprobe"
 def get_voiceover_dir() -> Path:
     import argparse
     ap = argparse.ArgumentParser()
-    ap.add_argument("--voiceover-dir", default="voiceovers_AI/full", type=Path,
+    ap.add_argument("--voiceover-dir", default="voiceovers/full", type=Path,
                      help="Directory containing full_NN.mp3 audio files")
     parsed, _ = ap.parse_known_args()
     d = parsed.voiceover_dir
@@ -166,7 +166,7 @@ def slug_from_filename(name: str) -> str:
 def main():
     import argparse
     ap = argparse.ArgumentParser()
-    ap.add_argument("--voiceover-dir", default="voiceovers_AI/full", type=Path, help="Directory containing full_NN.mp3 audio files")
+    ap.add_argument("--voiceover-dir", default="voiceovers/full", type=Path, help="Directory containing full_NN.mp3 audio files")
     ap.add_argument("--force", action="store_true", help="Overwrite existing final videos")
     meta_files = sorted(META_DIR.glob("*_meta.json"))
     if not meta_files:

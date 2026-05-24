@@ -18,9 +18,9 @@ import shutil
 import wave
 
 BASE = Path(__file__).parent.resolve()
-HOOKS_DIR = BASE / "voiceovers_AI" / "hooks"
-FULL_DIR = BASE / "voiceovers_AI" / "full"
-COMBINED_DIR = BASE / "voiceovers_AI" / "combined"
+HOOKS_DIR = BASE / "voiceovers" / "hooks"
+FULL_DIR = BASE / "voiceovers" / "full"
+COMBINED_DIR = BASE / "voiceovers" / "combined"
 STOCK_DIR = BASE / "assets" / "stock"
 NORM_DIR = BASE / "assets" / "stock_norm"
 OUT_DIR = BASE / "assets" / "final"
